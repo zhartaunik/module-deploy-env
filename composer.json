@@ -1,0 +1,18 @@
+{
+    "name": "perfect-code/module-deploy-env",
+    "description": "Magento2 extension which adds installation date on config:set operation",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "GPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PerfectCode\\DeployEnv\\": ""
+        }
+    }
+}
+
